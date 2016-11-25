@@ -4,7 +4,7 @@ var React = require('react'),
 
       onFormSubmit: function(e) {
         e.preventDefault();
-        let location = this.refs.location.value;
+        var location = this.refs.location.value;
 
         if (location.length > 0) {
           this.refs.location.value = '';

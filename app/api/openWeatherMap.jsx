@@ -13,8 +13,9 @@ module.exports = {
         throw new Error(res.data.message)
       }
       return res.data.main.temp;
-    }, function(res) {
-      throw new Error(res.data.message);
+    },
+    function(err) {
+      throw new Error('Unable to find weather for this location.');
     });
   }
 };
