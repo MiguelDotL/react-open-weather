@@ -14,7 +14,7 @@ var React = require('react'),
 
       handleSearch: function(location) {
         let that = this;
-        
+
         this.setState({ isLoading: true });
 
         openWeatherMap.getTemp(location).then(function(temp) {
@@ -42,8 +42,8 @@ var React = require('react'),
         }
 
         return(
-          <div>
-            <h3>Get Weather</h3>
+          <div className="text-center">
+            <h1>Get Weather</h1>
             <WeatherForm onSearch={this.handleSearch}/>
             {renderMessage()}
           </div>
