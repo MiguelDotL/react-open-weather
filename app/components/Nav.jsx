@@ -13,7 +13,8 @@ var React = require('react'),
             <div className="top-bar-left">
               <ul className="menu">
                 <li className="menu-text">
-                  React OpenWeather
+                  <img src="https://cdn1.iconfinder.com/data/icons/hawcons/32/700175-icon-1-cloud-128.png"></img>
+                  <span>React OpenWeather</span>
                 </li>
                 <li>
                   <IndexLink to="/"

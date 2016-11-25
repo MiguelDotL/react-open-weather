@@ -2,9 +2,10 @@ var React = require('react'),
 
     About = (props) => {
       return(
-        <div>
-          <h3>About</h3>
-          <p>Welcome to the  examples page!</p>
+        <div className="text-center">
+          <h1 className="text-center">About</h1>
+          <p>Built with <a href="https://github.com/MiguelDotL" target="_blank">&hearts;</a> by <a href="https://github.com/MiguelDotL" target="_blank">MiguelDotL</a></p>
+          <p>This application was build using the OpenWeather API, NodeJS, ReactJS, Webpack, Foundation </p>
         </div>
       );
     };
