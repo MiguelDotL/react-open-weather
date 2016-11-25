@@ -37,7 +37,7 @@ var React = require('react'),
               <form onSubmit={this.onSearch}>
                 <ul className="menu">
                   <li>
-                    <input type="search" placeholder="Enter Location"/>
+                    <input type="search" placeholder="Find Your City"/>
                   </li>
                   <li>
                     <input type="submit" className="button" value="Get Weather"/>

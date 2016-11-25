@@ -3,8 +3,8 @@ var React = require('react'),
 
     Examples = (props) => {
       return(
-        <div>
-          <h1 className="text-center">Examples</h1>
+        <div className="text-center">
+          <h1 className="page-title">Examples</h1>
           <p>Try these example locations:</p>
           <ol>
             <li>
