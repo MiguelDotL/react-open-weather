@@ -8,13 +8,13 @@ var React = require('react'),
           <p>Try these example locations:</p>
           <ol>
             <li>
-              <Link to='/?location=fort+lauderdale'> Fort Lauderdale, FL</Link>
+              <Link to='/?location=Fort+Lauderdale'> Fort Lauderdale, FL</Link>
             </li>
             <li>
-              <Link to='/?location=bogota'>Bogot&aacute;, Colombia</Link>
+              <Link to='/?location=Bogot&aacute;'>Bogot&aacute;, Colombia</Link>
             </li>
             <li>
-              <Link to='/?location=hamburg'>Hamburg, Germany</Link>
+              <Link to='/?location=Hamburg'>Hamburg, Germany</Link>
             </li>
           </ol>
         </div>
