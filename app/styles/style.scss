@@ -1,0 +1,30 @@
+$title-color: #333;
+
+input[type="search"] {
+  box-shadow: none;
+}
+
+.page-title {
+  color: $title-color;
+  margin: 2.5rem 0;
+}
+
+.top-bar {
+  span {
+    font-size: 1.6em;
+    margin: 0;
+    padding: 0;
+  }
+  img {
+    /*width: 100%;*/
+    height: 2.8rem;
+    margin: 0;
+    padding: 0 .4rem 0 0;
+    position: relative;
+    bottom: .3rem;
+  }
+}
+.top-bar-right {
+  position: relative;
+  top: 0.6rem;
+}

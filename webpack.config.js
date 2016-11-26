@@ -25,7 +25,7 @@ module.exports = {
       // --------Main App Components--------//
       Nav: 'app/components/Nav.jsx',
       Main: 'app/components/Main.jsx',
-      styles: 'app/styles/style.css',
+      styles: 'app/styles/style.scss',
 
       // --------Weather Components--------//
       Weather: 'app/components/Weather.jsx',
